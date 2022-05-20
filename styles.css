@@ -1,0 +1,40 @@
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 1000px;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-half {
+  width: 50%;
+}
+
+.column-quarter {
+  width: 25%;
+}
+
+.navbar1 {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar1 > li {
+  padding: 0 20px;
+}
+
+.navbar2 {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar2 > li {
+  padding: 0 20px;
+}
