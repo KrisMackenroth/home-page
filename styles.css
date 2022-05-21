@@ -25,7 +25,6 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: 1200px;
   justify-content: center;
 }
 
@@ -42,7 +41,12 @@ body {
 .column-third {
   width: calc(100% / 3);
   justify-content: center;
-  flex-basis: 400px;
+  flex-basis: 550px;
+  height: 65px;
+}
+
+.nav1 {
+  flex-basis: 730px;
 }
 
 .column-two-thirds {
@@ -64,6 +68,7 @@ body {
   list-style-type: none;
   display: flex;
   width: 30px;
+  font-weight: bold;
 }
 
 .navbar1 > li {
@@ -76,7 +81,8 @@ body {
 }
 
 .navbar2 > li {
-  padding: 0 20px;
+  padding: 0 10px;
+  font-weight: bold;
 }
 
 .relative {
@@ -136,6 +142,7 @@ body {
   color: white;
   font-size: 3rem;
   font-weight: bolder;
+  margin: 0;
 }
 
 .row-hero {
@@ -147,6 +154,7 @@ body {
 .course {
   color: white;
   font-size: 1.4em;
+  font-weight: bold;
 }
 
 .search {
