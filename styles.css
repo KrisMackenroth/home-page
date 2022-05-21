@@ -50,8 +50,9 @@ body {
 }
 
 .column-two-thirds {
-  width: 80%;
-  margin-top: 100px;
+  width: 35%;
+  margin-top: 250px;
+  margin-right: 300px;
 }
 
 .column-quarter {
@@ -91,7 +92,7 @@ body {
 
 .hero-image {
   width: 100%;
-  height: 600px;
+  height: 900px;
   background-image: url("images/hero-image.webp");
   background-size: cover;
   position: relative;
@@ -113,11 +114,11 @@ body {
 
 .get-started {
   background-color: #eb7100;
-  border-radius: 20px;
+  border-radius: 35px;
   border-style: none;
   color: white;
-  padding: 10px 15px;
-  font-size: 1.2em;
+  padding: 15px 20px;
+  font-size: 1.7em;
   font-weight: bold;
 }
 
@@ -130,17 +131,18 @@ body {
 .title {
   font-weight: bolder;
   font-size: 30px;
+  margin: 0 20px;
 }
 
 .support-text {
   color: white;
-  line-height: 35px;
-  font-size: 1.4em;
+  line-height: 45px;
+  font-size: 1.8em;
 }
 
 .banner-header {
   color: white;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: bolder;
   margin: 0;
 }
@@ -153,7 +155,7 @@ body {
 
 .course {
   color: white;
-  font-size: 1.4em;
+  font-size: 1.8em;
   font-weight: bold;
 }
 
@@ -182,4 +184,15 @@ body {
 
 .fix {
   display: inline-block;
+}
+
+.learn-more {
+  color: #00799e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sub {
+  margin-left: 15px;
+  margin-right: 15px;
 }
